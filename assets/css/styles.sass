@@ -72,6 +72,20 @@ img
 .badge.social.gplus:hover
 	background: #db4b39
 
+blockquote
+	padding: 0 
+	border: none
+	font-style: italic
+	text-align: left
+
+	&:before
+		display: none
+
+	cite 
+		display: block
+		color: #777
+		margin: 15px 0 0 0
+
 
 // HERO
 
@@ -167,6 +181,9 @@ section
 #instructor 
 	background: white url('/assets/img/brad-elvis.png') 90% -10px no-repeat
 
+	.instructor-text
+		background: rgba(255,255,255, 0.8)
+
 	h2
 		margin: 0 0 20px
 
@@ -190,6 +207,17 @@ section
 			display: block
 			font-size: 20px
 			font-weight: normal
+
+#kudos
+	text-align: center
+
+	.testimonial
+		margin-bottom: 60px
+
+		img
+			border-radius: 50%
+
+
 // CUSTOM ICON SPRITES
 
 i.ci 	

@@ -62,6 +62,18 @@ img {
 .badge.social.gplus:hover {
   background: #db4b39; }
 
+blockquote {
+  padding: 0;
+  border: none;
+  font-style: italic;
+  text-align: left; }
+  blockquote:before {
+    display: none; }
+  blockquote cite {
+    display: block;
+    color: #777;
+    margin: 15px 0 0 0; }
+
 #hero {
   background: url("/assets/img/hero-bg.jpg") 50% 0 repeat fixed;
   min-height: 500px;
@@ -141,6 +153,8 @@ section {
 
 #instructor {
   background: white url("/assets/img/brad-elvis.png") 90% -10px no-repeat; }
+  #instructor .instructor-text {
+    background: rgba(255, 255, 255, 0.8); }
   #instructor h2 {
     margin: 0 0 20px; }
   #instructor .num {
@@ -161,6 +175,13 @@ section {
       display: block;
       font-size: 20px;
       font-weight: normal; }
+
+#kudos {
+  text-align: center; }
+  #kudos .testimonial {
+    margin-bottom: 60px; }
+    #kudos .testimonial img {
+      border-radius: 50%; }
 
 i.ci {
   display: inline-block;
