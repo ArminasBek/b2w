@@ -33,6 +33,13 @@ button, input, .btn, a.btn {
   background-color: #dd5638;
   border-collapse: #d95131; }
 
+.btn-success {
+  background: #79b044;
+  border: none; }
+  .btn-success:hover {
+    background: #6a9b3d;
+    border: #6a9b3d; }
+
 img {
   max-width: 100%; }
 
@@ -182,6 +189,33 @@ section {
     margin-bottom: 60px; }
     #kudos .testimonial img {
       border-radius: 50%; }
+
+#signup {
+  text-align: center;
+  background: url("/assets/img/hipster-stuff.jpg") center center repeat fixed;
+  background-size: cover;
+  color: #fff;
+  padding: 140px 0; }
+  #signup h2 {
+    font-weight: normal; }
+    #signup h2 strong {
+      border-bottom: 2px solid #dd5638; }
+  #signup .btn {
+    font-size: 24px; }
+
+footer {
+  background: #3e4249;
+  color: #fff;
+  padding: 20px 0 10px;
+  font-size: 12px; }
+  footer a:hover {
+    color: #dd5638; }
+  footer p {
+    margin: 0; }
+  footer a:link, footer a:visited {
+    color: #fff; }
+  footer li.signup-link, footer a {
+    color: #dd5638; }
 
 i.ci {
   display: inline-block;
