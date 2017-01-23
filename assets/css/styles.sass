@@ -42,6 +42,12 @@ button, input, .btn, a.btn
 	text-rendering: optimizelegibility
 	color: #fff
 
+a
+	color: $salmon
+	&:hover
+		text-decoration: none
+
+
 .btn 
 	font-weight: bold
 
@@ -167,6 +173,24 @@ section
 	h3
 		margin: 30px 0 10px
 
+.feature-image
+	display: table
+	width: 100%
+
+	h1
+		display: table-cell
+		vertical-align: middle
+		text-align: center
+		color: #fff
+
+.feature-image-default
+	background: url("assets/img/stuff-feature.jpg") no-repeat 
+	background-size: cover
+
+.feature-image-default-alt
+	background: url("assets/img/hipster-stuff.jpg") no-repeat 
+	background-size: cover
+
 .section-header
 	text-align: center
 
@@ -265,6 +289,76 @@ footer
 
 	li.signup-link, a
 		color: $salmon	
+
+// BLOG STYLES
+
+.post 	
+	position: relative
+	border: solid 1px #ddd
+	background: #fff
+	margin: 0 0 40px
+	-webkit-border-radius: 4px
+	-moz-border-radius: 4px
+	border-radius: 4px
+
+	header, .post .post-excerpt
+		padding: 20px
+
+	header h3, header h1
+		margin: 0 0 15px
+		padding: 0 0 15px
+		border-bottom: solid 1px #ddd
+
+	header h1
+		font-size: 24px
+
+.post-image
+	height: auto
+
+.post-details
+	font-size: 12px
+	width: 90%
+
+	i.fa 
+		padding-left: 10px
+
+	i.fa:first-child
+		padding: 0
+
+
+// COMMENTS
+
+.post-comments-badge
+	height: 70px
+	width: 70px
+	position: absolute
+	top: 25px
+	right: 20px
+	border: none
+	-webkit-border-radius: 100%
+	-moz-border-radius: 100%
+	border-radius: 100%
+	background: $green
+	text-align: center
+	display: table
+
+	&:hover
+		background-color: #8bc653
+
+	a
+		display: table-cell
+		vertical-align: middle
+		color: #fff
+		font-size: 20px
+		list-height: 20px
+
+	i.fa
+		display: block
+		font-size: 15px
+		padding: 0
+		margin-bottom: 4px
+
+
 // CUSTOM ICON SPRITES
 
 i.ci 	
