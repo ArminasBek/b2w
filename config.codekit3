@@ -435,10 +435,22 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/blog.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/blog.html",
+		"oF": 0
+		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
+		"oF": 0
+		},
+	"\/post.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/post.html",
 		"oF": 0
 		}
 	},

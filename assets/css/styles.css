@@ -259,7 +259,11 @@ footer {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px; }
-  .post header, .post .post .post-excerpt, .widget header, .widget .post .post-excerpt {
+  .post header,
+  .post .post-excerpt,
+  .post .post-body, .widget header,
+  .widget .post-excerpt,
+  .widget .post-body {
     padding: 20px; }
   .post header h3, .post header h1, .widget header h3, .widget header h1 {
     margin: 0 0 15px;
