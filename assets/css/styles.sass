@@ -44,8 +44,11 @@ button, input, .btn, a.btn
 
 a
 	color: $salmon
+
 	&:hover
 		text-decoration: none
+		color: $salmon
+		font-weight: bold
 
 
 .btn 
@@ -296,7 +299,7 @@ footer
 
 // BLOG STYLES
 
-.post 	
+.post, .widget 	
 	position: relative
 	border: solid 1px #ddd
 	background: #fff
@@ -329,7 +332,27 @@ footer
 	i.fa:first-child
 		padding: 0
 
+// WIDGETS
 
+.widget
+	padding: 20px
+
+	h4
+		margin: 0 0 10px
+		padding: 0 0 10px
+		border-bottom: solid 1px #ddd
+	
+	ul 	
+		list-style: none
+		margin: 0
+		padding: 0
+
+		li
+			margin: 0 0 5px
+
+			&:hover
+				position: relative
+				left: 1px
 // COMMENTS
 
 .post-comments-badge
@@ -388,6 +411,25 @@ i.ci
 
 .ci.ci-device
 	background-position: -200px 0
+
+// FORMS
+
+label
+	display: block
+	font-weight: bold
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea
+	color: #666
+	border: 1px solid #ccc
+	border-radius: 3px
+	display: block
+	box-sizing: border-box
+
 
 // media quories
 
