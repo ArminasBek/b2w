@@ -452,6 +452,12 @@
 		"oA": 2,
 		"oAP": "\/post.html",
 		"oF": 0
+		},
+	"\/resources.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/resources.html",
+		"oF": 0
 		}
 	},
 "hooks": [
