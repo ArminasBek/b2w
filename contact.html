@@ -11,7 +11,7 @@
 		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
 		<link rel="stylesheet" href="assets/css/styles.css">
 	</head>
-	<body class="full-width resources">
+	<body class="full-width contact">
 	<header class="site-header" role="banner">
 			<!-- NAVBAR -->
 			<div class="navbar-wrapper">
@@ -30,8 +30,8 @@
 							<ul class="nav navbar-nav navbar-right">
 								<li><a href="index.html">Home</a></li>
 								<li><a href="blog.html">Blog</a></li>
-								<li class="active"><a href="resources.html">Resources</a></li>
-								<li><a href="contact.html">Contact</a></li>
+								<li><a href="resources.html">Resources</a></li>
+								<li  class="active"><a href="contact.html">Contact</a></li>
 							</ul>
 						</div>
 					</div>	
@@ -39,43 +39,42 @@
 			</div>
 		</header>
 		<section class="feature-image feature-image-default" data-type="background" data-speed="2">
-			<h1 class="page-title">Resources</h1>
+			<h1 class="page-title">Contact</h1>
 		</section>
 		<!-- MAIN CONTENT -->
 		<div class="container">
 			<div class="row" id="primary">
 				<div id="content" class="col-sm-12">
 					<section class="main-content">
-						<p class="lead">Welcome to the Bootstrap to Wordpress resources page, Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, cupiditate ratione quisquam sapiente laborum doloremque, alias consequatur, error animi nostrum ab officia! Harum aliquam laborum odio, facilis tenetur animi reiciendis?</p>
-						<p><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis sunt exercitationem labore, magnam rem totam ex voluptas modi aliquid et veniam repellendus odio eum nostrum voluptatem nesciunt, dignissimos provident. Assumenda.</em></p>
-						<hr>
-						<div class="resource-row clearfix">
-							<div class="resource">
-								<img src="/assets/img/dropbox-logo.jpg" alt="dropbox">
-								<h3><a href="http://justhost.com">Justhost</a></h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima quidem nostrum nulla, saepe voluptates. Ipsum omnis velit, voluptas reiciendis, praesentium perferendis voluptatibus voluptatem minus mollitia ea ducimus temporibus, qui blanditiis!</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto molestiae aperiam debitis eos dolor voluptas maxime corporis ad facere atque, explicabo mollitia alias dolorem excepturi, tempora nemo dolore delectus facilis.</p>
-								<a href="http://justhost.com" class="btn btn-success">Get started with Jushost</a>
-							</div> <!-- ./ resource -->
-							<div class="resource">
-								<img src="/assets/img/coda2-logo.jpg" alt="JustHost">
-								<h3><a href="http://coda2.com">Coda 2</a></h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima quidem nostrum nulla, saepe voluptates. Ipsum omnis velit, voluptas reiciendis, praesentium perferendis voluptatibus voluptatem minus mollitia ea ducimus temporibus, qui blanditiis!</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto molestiae aperiam debitis eos dolor voluptas maxime corporis ad facere atque, explicabo mollitia alias dolorem excepturi, tempora nemo dolore delectus facilis.</p>
-								<a href="http://coda2.com" class="btn btn-success">Get started with Coda 2</a>
-							</div> <!-- ./ resource -->
-							<div class="resource">
-								<img src="/assets/img/dropbox-logo.jpg" alt="dropbox">
-								<h3><a href="http://dropbox.com">Dropbox</a></h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima quidem nostrum nulla, saepe voluptates. Ipsum omnis velit, voluptas reiciendis, praesentium perferendis voluptatibus voluptatem minus mollitia ea ducimus temporibus, qui blanditiis!</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto molestiae aperiam debitis eos dolor voluptas maxime corporis ad facere atque, explicabo mollitia alias dolorem excepturi, tempora nemo dolore delectus facilis.</p>
-								<a href="http://dropbox.com" class="btn btn-success">Get started with Dropbox</a>
-							</div> <!-- ./ resource -->
-						</div>
+						<p class="lead">Have any question? Feel free to get in touch</p>
+						<form role="form" class="clearfix">
+							<div class="row">
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label for="contact-name" class="sr-only">Name</label>
+										<input type="text" class="form-control input-lg" id="contact-name" placeholder="Your name">
+									</div>
+								</div>
+								<div class="col-sm-6">
+									<div class="form-group">
+										<label for="contact-email" class="sr-only">Email</label>
+										<input type="email" class="form-control input-lg" id="contact-email" placeholder="Your email">
+									</div>
+								</div>
+								<div class="col-sm-12">
+									<div class="form-group">
+										<label for="contact-words" class="sr-only">Message</label>
+										<textarea class="form-control input-lg" id="contact-words" placeholder="Your message" rows="4"></textarea>
+									</div>
+								</div>
+							</div>
+							<input type="submit" class="btn btn-info btn-lg pull-right" value="Get in touch &raquo;">
+						</form>
 					</section>
 				</div>
 			</div>
 		</div>
+		
 		<!-- ./ MAIN CONTENT -->
 		<section id="signup" data-type="background" data-speed="4">
 						<div class="container">

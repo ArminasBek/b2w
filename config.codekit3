@@ -441,6 +441,12 @@
 		"oAP": "\/blog.html",
 		"oF": 0
 		},
+	"\/contact.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/contact.html",
+		"oF": 0
+		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
